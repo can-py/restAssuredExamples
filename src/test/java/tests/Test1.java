@@ -1,15 +1,10 @@
 package tests;
 
-import io.restassured.RestAssured;
-import io.qameta.allure.restassured.AllureRestAssured;
-import io.restassured.RestAssured;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-public class test1 {
+public class Test1 extends BaseTest{
 
     @Test
     public void statusKoduDogrulamasiYap() {

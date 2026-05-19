@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class UserDbTest {
+public class UserDbTest extends BaseTest {
 
     @BeforeAll
     static void kurulum() throws Exception {
